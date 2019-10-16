@@ -1,0 +1,80 @@
+.column{
+    float:left;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+
+#lower{
+    position: relative;
+    border-style: dashed;
+    padding: 20px 20px 20px 20px;
+    background-color: #27bebc;
+    overflow-y: scroll;
+    height: 175px;
+
+}
+
+button{
+    width: 70%;
+    height: 75px;
+    margin: 10px 0px 10px 0px;
+
+}
+
+#head{
+    border-style: double;
+    background-color: #27bebc;
+}
+
+#textbox{
+    background-color: white;
+    text-align: center;
+    width:50%;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    min-width: 50%;
+
+}
+
+#SearchBar{
+
+    background-color: white;
+    text-align: center;
+    width:50%;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    min-width: 50%;
+}
+
+canvas{
+    position: fixed;
+    top:0;
+    left:0;
+    z-index: -1;
+}
+
+#plus{
+  width: 50px;
+  height: 50px;
+
+}
+ .options{
+
+ }
+.place{
+    flex:2;
+    text-align:center;
+}
+#container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+body{
+    overflow: hidden;
+    margin: 0 0 0 0;
+}

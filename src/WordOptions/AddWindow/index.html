@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+
+        <meta charset="utf-8">
+        <title>SlangTab</title>
+        <link rel="stylesheet" href="../styles.css">
+
+        <!-- Insert this line above script imports  -->
+        <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+        <!-- normal script imports etc  -->
+        <script src='../../jquery.min.js'></script>
+        <script src='../../SlangList.js'></script>
+
+        <script src='../../Funcs.js'></script>
+        <script src='script.js'></script>
+        <!-- Insert this line after script imports -->
+        <script>if (window.module) module = window.module;</script>
+
+    </head>
+
+    <body >
+        <div id='box'>
+                Word Shortcut<span>___-_</span><input type='text' id='word_id'><br>
+                Word Full Meaning<span>_</span><input type='text' id='word_value'><br>
+
+
+                <div class='container'>
+
+                    <a href="" class='item' id='close'>Press to close window</a>
+                    <button  class='item' id='sub_but'>Submit </button>
+                </div>
+        </div>
+
+    </body>
+
+</html>

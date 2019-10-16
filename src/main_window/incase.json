@@ -1,0 +1,34 @@
+{
+    "lol": {
+        "id": "lol",
+        "value": "laughing out loud"
+    },
+    "lmao": {
+        "id": "lmao",
+        "value": "laughing my ass out"
+    },
+    "gtfo": {
+        "id": "gtfo",
+        "value": "get the fuck out"
+    },
+    "ttyl": {
+        "id": "ttyl",
+        "value": "talk to you later"
+    },
+    "fyi": {
+        "id": "fyi",
+        "value": "for your information"
+    },
+    "tbh": {
+        "id": "tbh",
+        "value": "to be honest"
+    },
+    "brb": {
+        "id": "brb",
+        "value": "be right back"
+    },
+    "sos": {
+        "id": "sos",
+        "value": "save our souls"
+    }
+}
